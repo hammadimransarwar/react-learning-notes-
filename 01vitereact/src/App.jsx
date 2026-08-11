@@ -1,7 +1,10 @@
-
+import Hello from './vitehammad.jsx';
 function App() {
   return (
-    <h1>Hello Vite + React! | My name is hammad</h1>
+    <>
+    <h1>Hello Vite + React!</h1>
+    <Hello/>
+    </>
   )
 }
 
