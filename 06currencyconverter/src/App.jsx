@@ -1,7 +1,7 @@
 import './App.css'
 import InputDiv from '../componentss/InputDiv'
 import { useState} from 'react'
-import useCurrencyInfo from '.../custom hooks/Currencyinfohook';
+import useCurrencyInfo from '../custom hooks/Currencyinfohook';
 function App() {
   const[amount,setAmount]=useState("");
   const [to,setTo]=useState("pkr");
@@ -20,7 +20,7 @@ function App() {
         <div
             className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
             style={{
-                backgroundImage: `url('https://images.pexels.com/photos/4025825/pexels-photo-4025825.jpeg?_gl=1*1ccbjit*_ga*MTU5NjMzMTQ4OC4xNzg3MTgwMDMw*_ga_8JE65Q40S6*czE3ODcxODAwMzAkbzEkZzEkdDE3ODcxODAxNTgkajU5JGwwJGgw')`,
+                backgroundImage: `url('https://images.pexels.com/photos/4025825/pexels-photo-4025825.jpeg?_gl=1*edabxw*_ga*MTU5NjMzMTQ4OC4xNzg3MTgwMDMw*_ga_8JE65Q40S6*czE3ODczMTY1MTAkbzMkZzAkdDE3ODczMTY1MTEkajU5JGwwJGgw')`,
             }}
         >
             <div className="w-full">
